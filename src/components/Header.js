@@ -11,7 +11,7 @@ class Header extends Component{
 		return(
 			<div>
 				<AppBar 
-					title="sagarmatha"
+					title="Sagarmatha"
 					onLeftIconButtonClick={()=>this.toogleSideBar()}/>
 				
 				<Drawer 
@@ -19,7 +19,8 @@ class Header extends Component{
 					docked={false}
 					onRequestChange={()=>this.toogleSideBar()}
 				>
-         		<MenuItem> MenuItem </MenuItem>
+         		<MenuItem> home</MenuItem>
+				 <MenuItem>First</MenuItem>
 
        			 </Drawer>
 			</div>
